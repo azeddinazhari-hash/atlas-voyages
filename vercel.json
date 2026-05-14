@@ -1,0 +1,1 @@
+﻿{"functions":{"*.php":{"runtime":"vercel-php@0.7.2"}},"routes":[{"src":"/","dest":"/index.php"},{"src":"/(.*\\.php)","dest":"/$1"},{"src":"/(.+\\.(css|js|jpg|jpeg|png|gif|ico|mp4|jfif))","dest":"/$1"}]}
