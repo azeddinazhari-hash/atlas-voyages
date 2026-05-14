@@ -1,1 +1,6 @@
-﻿{"version":2,"builds":[{"src":"*.php","use":"vercel-php@0.6.0"}],"routes":[{"src":"/","dest":"index.php"},{"src":"/(.*\\.php)","dest":"/$1"},{"src":"/(.+\\.(css|js|jpg|jpeg|png|gif|ico|mp4|jfif))","dest":"/$1"}]}
+﻿{
+  "version": 2,
+  "builds": [
+    { "src": "*.php", "use": "vercel-php@0.6.0" }
+  ]
+}
